@@ -1,0 +1,20 @@
+{
+  "name": "hue-bulbs",
+  "version": "1.0.0",
+  "description": "Messing around with Philips hue lights home automation",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": ""
+  },
+  "keywords": [],
+  "author": "Adam Chrimes (https://github.com/AdamChrimes)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-hue-api": "^4.0.10"
+  }
+}
